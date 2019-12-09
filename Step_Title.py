@@ -1,4 +1,4 @@
-import requests
+import requests                               
 import bs4
 var = requests.get('https://stepapp.ai/')
 cont1 = bs4.BeautifulSoup(var.text, 'lxml')
